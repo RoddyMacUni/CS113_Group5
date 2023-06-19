@@ -94,3 +94,58 @@ body {
     height: 100px;
     width: 100%;
 }
+
+.skillContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: rgb(49, 93, 151);
+    font-weight: 700;
+    color: white;
+}
+
+.lessonContainer {
+    background-color: rgb(90, 162, 255);
+    padding: 5px;
+}
+
+.lessonTitle {
+    font-weight: 700;
+}
+
+.highlightText {
+    color: white;
+    font-weight: 500;
+}
+
+.pageDivider {
+    background-color: rgb(49, 93, 151);
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: white
+}
+
+.lessonCompleteCheckbox {
+    width: 100%;
+}
+
+.celebrationToast {
+    display: flex;
+    justify-content: center;
+}
+
+.success {
+    text-align: center;
+    background-color: rgb(49, 133, 49);
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+}
