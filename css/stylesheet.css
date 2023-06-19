@@ -94,3 +94,11 @@ body {
     height: 100px;
     width: 100%;
 }
+
+.loginForm {
+    text-align: center;
+}
+
+.loginItem {
+    width: 10%;
+}
