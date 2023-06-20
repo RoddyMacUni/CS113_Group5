@@ -7,7 +7,7 @@ body {
 }
 
 .navbar-container {
-    background-color: black;
+    background-color: rgb(49, 93, 151);
     display: flex;
     justify-content: center;
     height: 27px;
@@ -36,7 +36,7 @@ body {
 }
 
 .nav-list li a:hover {
-    background-color: blue;
+    background-color: #F3385A;
     color: white;
 }
 
@@ -47,7 +47,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: black;
+    background-color: rgb(49, 93, 151);
     z-index: -1;
     opacity: 0;
     transition: opacity 0.3s ease;
@@ -88,7 +88,7 @@ body {
 
 .footerItem {
     color: white;
-    background-color: black;
+    background-color: rgb(49, 93, 151);
     height: 40px;
 }
 
@@ -96,6 +96,16 @@ body {
     margin-top: 2px;
     height: 100px;
     width: 100%;
+}
+
+.homepageLoginContainer {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(126, 126, 126);
 }
 
 .loginForm {
@@ -119,7 +129,7 @@ body {
     height: 3em;
     margin: 1em;
     text-align: center;
-    background-color: darkgray;
+    background-color: #F3385A;
     border: none;
 }
 
@@ -167,6 +177,15 @@ body {
 .success {
     text-align: center;
     background-color: rgb(49, 133, 49);
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}
+
+.error {
+    text-align: center;
+    background-color: #F3385A;
     width: 100%;
     font-weight: 600;
     color: white;
@@ -221,11 +240,24 @@ body {
     font-weight: 500;
 }
 
+.aboutUsParentContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .aboutUsContainer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-bottom: 25px;
+    background-color: rgb(49, 93, 151);
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    width: 75%;
+    padding: 5px;
 }
 
 .aboutUsText {
@@ -243,7 +275,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    min-height: 10vh;
 }
 
 .parentZoneContainer {
@@ -254,7 +288,14 @@ body {
     margin-bottom: 50px;
 }
 
+.parentZoneContainer > a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+
 .parentZoneItem {
+    cursor: pointer;
     display: flex;
     text-align: center;
     flex-direction: row;
@@ -273,4 +314,68 @@ body {
 .parentZoneImg {
     width: 50px;
     height: 50px;
+}
+
+.parentZoneText {
+    color: white;
+    font-weight: 500;
+}
+
+.lessonQuiz {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 93, 151);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.lessonQuizQuestionInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.lessonQuizSubmit {
+    width: 100%;
+    background-color: #F3385A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .headerLogo {
+        display: none;
+    }
+
+    .navbar-container {
+        height: fit-content;
+    }
+
+    * {
+        font-size: 1.4rem;
+    }
+
+    .parentZoneContainer {
+        flex-direction: column;
+    }
+
+    .parentZoneItem:hover {
+        transition: all 0.5s;
+        transform: scale(1);
+    }
 }

@@ -10,46 +10,44 @@
 <body>
     <br>
 
-    <div class="image-container">
-        <div class="image">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>Image</p>
-        </div>
-        <div class="image">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>Image</p>
-        </div>
-        <div class="image">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>Image</p>
-        </div>
+    <div class="parentZoneContainer">
+        <a href="html-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">Build a website</p>
+            </div>
+        </a>
+
+        <a href="html-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">What is HTML?</p>
+            </div>
+        </a>
+
+        <a href="css-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">What is CSS?</p>
+            </div>
+        </a>
     </div>
-
-
-    <div class="banner">
-        <img class = "banner" src="../images/placeholder.jpg">
-    </div>
-
-    <div class="video-container">
-        <video src="test.mp4" controls>
-        </video>
-    </div>
-
-    <div name="homepage-login-section">
-        Already a member?
-        <button type="button"><a href="login.php">Log in</a> </button>
-    </div>
-
-    <div class="video-container">
+    <br>
+    <div class="pageDivider">&nbsp;</div>
+    <br>
+    <div class="quicklinks">
         <img src="../images/placeholder.jpg">
     </div>
-
-    <div name="homepage-FAQ-section">
-        Got a question?
-        <button type="button"><a href="faq.php">FAQ</a> </button>
+    <br>
+    <div class="pageDivider">&nbsp;</div>
+    <div class="homepageLoginContainer" name="homepage-login-section">
+        Already a member?
+        <button class="lessonQuizSubmit" type="button"><a href="login.php">Log in</a> </button>
+    </div>
+    <div class="pageDivider">&nbsp;</div>
+    <div class="quicklinks">
+        <span>Got a question?</span>
+        <a href="about-us.php">FAQ</button>
     </div>
 
 

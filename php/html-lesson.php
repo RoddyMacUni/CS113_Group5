@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/stylesheet.css">
     <?php include 'templateHeader.php'; ?>
 </head>
-<br>
 <body>
 <div class="skillContainer">
     <span class="skillBarItem">BASICS</span>
@@ -36,12 +35,24 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-<div class="pageDivider">All finished?</div>
+<div class="pageDivider">All finished? Try this quiz..</div>
 <div class="lessonContainer">
-    <p class="lessonContent">If you have fully read and understood the above materials, check the box below...</p>
-    <input type="checkbox" class="lessonCompleteCheckbox" name="htmlLessonCheckbox" id="htmlLessonCheckbox">
-    <!--IN FUTURE THIS WILL BE MEASURED BY QUIZ RESULT, BUT NOT REQUIRED FOR THIS MILESTONE-->
     <div class="celebrationToast" id="celebrationToast"></div>
+    <form class="lessonQuiz" id="htmlLesson1Quiz">
+        <div class="lessonQuizQuestion">
+            <span class="lessonQuizQuestionText">What does HTML stand for?</span>
+            <input type="text" id="lessonQuizQuestionInput" class="lessonQuizQuestionInput">
+        </div>
+
+        <div class="lessonQuizQuestion">
+            <span class="lessonQuizQuestionText">Which tag would you use to add an image to a web page?</span>
+            <input type="text" id="lessonQuizQuestionInput" class="lessonQuizQuestionInput">
+        </div>
+        <button class="lessonQuizSubmit" type="submit">Submit answers</button>
+    </form>
+    
+    
+
 </div>
 <?php include 'templateFooter.php'; ?>
 </body>
