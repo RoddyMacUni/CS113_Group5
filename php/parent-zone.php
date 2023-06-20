@@ -47,11 +47,6 @@
         Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
         Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.</p>
 </div>
-<div class="lessonContainer">
-    <div class="videoContainer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BpgAzeU0w-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div>
-</div>
 <div class="pageDivider"></div>
 <?php include 'templateFooter.php'; ?>
 </body>
