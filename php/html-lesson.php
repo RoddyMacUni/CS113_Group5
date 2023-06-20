@@ -11,9 +11,9 @@
 <br>
 <body>
 <div class="skillContainer">
-    <span>BASICS</span>
-    <span>INTERMEDIATE</span>
-    <span>ADVANCED</span>
+    <span class="skillBarItem">BASICS</span>
+    <span class="skillBarItem">INTERMEDIATE</span>
+    <span class="skillBarItem">ADVANCED</span>
 </div>
 <div class="lessonContainer">
     <span class="lessonTitle">Basics of HTML</span>
@@ -43,6 +43,6 @@
     <!--IN FUTURE THIS WILL BE MEASURED BY QUIZ RESULT, BUT NOT REQUIRED FOR THIS MILESTONE-->
     <div class="celebrationToast" id="celebrationToast"></div>
 </div>
-<?php include './php/templateFooter.php'; ?>
+<?php include 'templateFooter.php'; ?>
 </body>
 </html>

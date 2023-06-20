@@ -11,29 +11,30 @@
 <br>
 <body>
 <div class="skillContainer">
-    <span>BASICS</span>
-    <span>INTERMEDIATE</span>
-    <span>ADVANCED</span>
+    <span class="skillBarItem">BASICS</span>
+    <span class="skillBarItem">INTERMEDIATE</span>
+    <span class="skillBarItem">ADVANCED</span>
 </div>
 <div class="lessonContainer">
     <span class="lessonTitle">Basics of CSS</span>
-    <p class="lessonContent">Have you ever wondered <span class="highlightText">how</span> websites work?</p>
-    <p class="lessonContent">In this lesson, we'll uncover the magic behind websites and discover the language that brings them to life: HTML</p>
-    <p class="lessonContent">HTML is short for <span class="highlightText">Hyper Text Markup Language</span>  is the backbone of every website you visit. It's the secret code that tells your computer or device how to display a webpage. Just like the bricks in a building, HTML provides the structure and layout for all the amazing content you see online.</p>
-    <p class="lessonContent">You can think of HTML as a set of instructions you give your computer. It helps you create headings, paragraphs, images, links and so much more. With HTML, you have the power to make your very own web pages!</p>
+    <p class="lessonContent">CSS, also known as <span class="highlightText">Cascading Style Sheets</span> tell the web browser how to style our website.</p>
+    <p class="lessonContent">We use CSS because it allows us to create 'classes' that we can apply to any HTML element to give it styles, meaning we don't have to spend time styling each individual component</p>
+    <p class="lessonContent">Styles can be applied to an HTML element either <span class="highlightText">inline</span> or <span class="highlightText">external</span></p>
+    <p class="lessonContent"><span class="highlightText">External</span> stylesheets are created in another file, usually within a CSS folder and linked in the <span class="highlightText">&lt;head&gt;</span> tag, while inline styles are defined on the element itself inside the <span class="highlightText">style</span> attribute</p>
 
-    <span class="lessonTitle">HTML Tags</span>
-    <p class="lessonContent">HTML tags are "wrapped" around pieces of text and define how the website will display the text.</p>
-    <p class="lessonContent">Elements are used to jazz up the text on your webpages<br>Want to make a big heading? Use the <span class="highlightText">&lt;h1&gt;</span> tag, for smaller ones there's <span class="highlightText">&lt;h2&gt;</span> and <span class="highlightText">&lt;h3&gt;</span></p>
-    <p class="lessonContent">HTML lets you sprinkle your web pages with mesmerising colours. you can change colours, sizes, fonts and more! With the power of <span class="highlightText">CSS (Cascading Style Sheets)</span> you can make your text shimmer, dance or even glow like magic!</p>
-    <p class="lessonContent">Want to transport your visitors to another page with just one click? HTML can do that with a link, the <span class="highlightText">&lt;a&gt;</span> tag - just specify the URL and your visitors will be transported there.</p>
-    <p class="lessonContent">A picture is worth a thousand words! And just like the pictures on this page, HTML let's us display these with the <span class="highlightText">&lt;img&gt;</span> tag.</p>
-    <p class="lessonContent">Just like an architect designs buildings, HTML helps you structure your web pages into flawless <span class="highlightText">sections, lists and tables.</span> You can create fun and functional designs for all to access.</p>
+    <span class="lessonTitle">Common CSS properties</span>
+    <p class="lessonContent">If you want to change the color of the text within an element, you would use the <span class="highlightText">color</span> property. eg:</p>
+    <p class="lessonContent" style="font-family: 'Source Code Pro'; color: white; background-color: rgb(49, 93, 151); width: fit-content; padding: 10px; border-radius: 5px">h1 {<br>color: white<br>}</p>
+    <p class="lessonContent">The above CSS code will make every <span class="highlightText">&lt;h1&gt;</span> tag have white text</p>
+    <p class="lessonContent">padding is another useful css property, which allows you to add extra space to each side of an element.</p>
+    <div style="background-color: rgb(49, 93, 151); padding: 10px; color: white; border-radius: 10px; text-align: center; width: 25%;">Padding 10px</div>
+    <br><br>
+    <div style="background-color: rgb(49, 93, 151); padding: 25px; color: white; border-radius: 10px; text-align: center; width: 25%;">Padding 25px</div>
 </div>
 <div class="pageDivider">Watch This</div>
 <div class="lessonContainer">
     <div class="videoContainer">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ok-plXXHlWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OEV8gMkCHXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
 <div class="pageDivider">All finished?</div>
@@ -43,6 +44,6 @@
     <!--IN FUTURE THIS WILL BE MEASURED BY QUIZ RESULT, BUT NOT REQUIRED FOR THIS MILESTONE-->
     <div class="celebrationToast" id="celebrationToast"></div>
 </div>
-<?php include './php/templateFooter.php'; ?>
+<?php include 'templateFooter.php'; ?>
 </body>
 </html>
