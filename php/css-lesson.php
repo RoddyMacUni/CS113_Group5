@@ -38,10 +38,19 @@
 </div>
 <div class="pageDivider">All finished?</div>
 <div class="lessonContainer">
-    <p class="lessonContent">If you have fully read and understood the above materials, check the box below...</p>
-    <input type="checkbox" class="lessonCompleteCheckbox" name="cssLessonCheckbox" id="cssLessonCheckbox">
-    <!--IN FUTURE THIS WILL BE MEASURED BY QUIZ RESULT, BUT NOT REQUIRED FOR THIS MILESTONE-->
     <div class="celebrationToast" id="celebrationToast"></div>
+    <form class="lessonQuiz" id="cssLesson1Quiz">
+        <div class="lessonQuizQuestion">
+            <span class="lessonQuizQuestionText">What does CSS stand for?</span>
+            <input type="text" id="lessonQuizQuestionInput" class="lessonQuizQuestionInput">
+        </div>
+
+        <div class="lessonQuizQuestion">
+            <span class="lessonQuizQuestionText">Which property changes the text color of a HTML element?</span>
+            <input type="text" id="lessonQuizQuestionInput" class="lessonQuizQuestionInput">
+        </div>
+        <button class="lessonQuizSubmit" type="submit">Submit answers</button>
+    </form>
 </div>
 <?php include 'templateFooter.php'; ?>
 </body>

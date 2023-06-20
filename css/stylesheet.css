@@ -173,6 +173,15 @@ body {
     border-radius: 10px;
 }
 
+.error {
+    text-align: center;
+    background-color: #F3385A;
+    width: 100%;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}
+
 .videoContainer {
     display: flex;
     justify-content: center;
@@ -278,6 +287,37 @@ body {
 .parentZoneText {
     color: white;
     font-weight: 500;
+}
+
+.lessonQuiz {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 93, 151);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-weight: 500;
+}
+
+.lessonQuizQuestionInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.lessonQuizSubmit {
+    width: 100%;
+    background-color: #F3385A;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 
