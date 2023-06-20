@@ -220,3 +220,57 @@ body {
 .learnItemLinksTitle {
     font-weight: 500;
 }
+
+.aboutUsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.aboutUsText {
+    width: 50%;
+    text-align: center;
+}
+
+.aboutUsImg {
+    width: 120px;
+    height: 120px;
+    margin-right: 25px;
+}
+
+.quicklinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.parentZoneContainer {
+    background-color: rgb(90, 162, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.parentZoneItem {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(49, 93, 151);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.parentZoneItem:hover {
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+
+.parentZoneImg {
+    width: 50px;
+    height: 50px;
+}
