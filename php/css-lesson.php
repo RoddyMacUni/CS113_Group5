@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../css/stylesheet.css">
     <?php include 'templateHeader.php'; ?>
 </head>
-<br>
 <body>
 <div class="skillContainer">
     <span class="skillBarItem">BASICS</span>
