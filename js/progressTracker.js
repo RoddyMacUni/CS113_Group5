@@ -82,27 +82,28 @@ $(window).on("load", function () {
 
   $("#htmlLesson1Quiz").submit( function (e) {
     e.preventDefault();
-    let correct = false;
+    let q1 = false;
+    let q2 = false;
     $(".lessonQuizQuestionInput").each(function(i) {
       switch(i) {
         case 0:
           var text = $(this).val().toLowerCase().trim().split(" ").join("");
           if(text==="hypertextmarkuplanguage") {
-            correct = true
+            q1 = true
           } else {
-            correct = false
+            q1 = false
           }
         break;
         case 1:
           var text = $(this).val().toLowerCase().trim().replace(" ", "").replace("<","").replace(">","")
           if(text==="img") {
-            correct = true
+            q2 = true
           } else {
-            correct = false
+            q2 = false
           }
         break;
       }
-      if(correct) {
+      if(q1 && q2) {
         incrementProgress("HTML");
         let HTMLprogress = getProgress("HTML");
         let CSSprogress = getProgress("CSS");
