@@ -10,21 +10,20 @@
 <body>
     <br>
 
-    <div class="image-container">
-        <div class="quicklinks">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>Build a website</p>
+    <div class="parentZoneContainer">
+        <div class="parentZoneItem">
+            <img src="../images/monster1.png" alt="" class="parentZoneImg">
+            <p class="parentZoneText">Build a website</p>
         </div>
-        <div class="quicklinks">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>What is HTML?</p>
+
+        <div class="parentZoneItem">
+            <img src="../images/monster1.png" alt="" class="parentZoneImg">
+            <p class="parentZoneText">What is HTML?</p>
         </div>
-        <div class="quicklinks">
-            <img class="image" src="../images/placeholder.jpg">
-            <br>
-            <p>What is CSS?</p>
+
+        <div class="parentZoneItem">
+            <img src="../images/monster1.png" alt="" class="parentZoneImg">
+            <p class="parentZoneText">What is CSS?</p>
         </div>
     </div>
     <br>
