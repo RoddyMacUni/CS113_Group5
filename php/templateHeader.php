@@ -8,6 +8,7 @@
                     <ul class="nav-list" >
                         <li><a href="index.php">Home</a></li>
                         <li><a href="about-us.php">About</a></li>
+                        <li><a href="learn.php">Learn</a></li>
                         <li><a href="MoreButtons.php">More Buttons</a></li>
                         <li><a href="login.php">Log in</a></li>
                     </ul>
