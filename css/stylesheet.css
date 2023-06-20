@@ -220,3 +220,28 @@ body {
 .learnItemLinksTitle {
     font-weight: 500;
 }
+
+.aboutUsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.aboutUsText {
+    width: 50%;
+    text-align: center;
+}
+
+.aboutUsImg {
+    width: 120px;
+    height: 120px;
+    margin-right: 25px;
+}
+
+.quicklinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
