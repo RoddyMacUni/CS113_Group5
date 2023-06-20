@@ -11,20 +11,26 @@
     <br>
 
     <div class="parentZoneContainer">
-        <div class="parentZoneItem">
-            <img src="../images/monster1.png" alt="" class="parentZoneImg">
-            <p class="parentZoneText">Build a website</p>
-        </div>
+        <a href="html-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">Build a website</p>
+            </div>
+        </a>
 
-        <div class="parentZoneItem">
-            <img src="../images/monster1.png" alt="" class="parentZoneImg">
-            <p class="parentZoneText">What is HTML?</p>
-        </div>
+        <a href="html-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">What is HTML?</p>
+            </div>
+        </a>
 
-        <div class="parentZoneItem">
-            <img src="../images/monster1.png" alt="" class="parentZoneImg">
-            <p class="parentZoneText">What is CSS?</p>
-        </div>
+        <a href="css-lesson.php">
+            <div class="parentZoneItem">
+                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <p class="parentZoneText">What is CSS?</p>
+            </div>
+        </a>
     </div>
     <br>
     <div class="pageDivider">&nbsp;</div>

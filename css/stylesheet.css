@@ -288,7 +288,14 @@ body {
     margin-bottom: 50px;
 }
 
+.parentZoneContainer > a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: inherit;
+}
+
 .parentZoneItem {
+    cursor: pointer;
     display: flex;
     text-align: center;
     flex-direction: row;
