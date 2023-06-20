@@ -36,7 +36,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/OEV8gMkCHXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
 </div>
-<div class="pageDivider">All finished?</div>
+<div class="pageDivider">All finished? Try this quiz..</div>
 <div class="lessonContainer">
     <div class="celebrationToast" id="celebrationToast"></div>
     <form class="lessonQuiz" id="cssLesson1Quiz">

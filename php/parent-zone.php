@@ -28,24 +28,21 @@
 </div>
 <div class="pageDivider" style="margin-bottom: 10px;">&nbsp;</div>
 <!--THIS WILL BE POPULATED DYNAMICALLY DEPENDING ON WHAT LINK IS SELECTED ABOVE, IN FUTURE MILESTONES-->
-<div class="aboutUsContainer">
-    <img src="../images/logo.png" alt="" class="aboutUsImg">
-    <p class="aboutUsText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tempus vehicula sodales. 
-        Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-        Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-        Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-        Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-        Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-        Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-        Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-        Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-        Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-        Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-        Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-        Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-        Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-        Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-        Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.</p>
+<div class="aboutUsParentContainer">
+    <div class="aboutUsContainer">
+        <img src="../images/logo.png" alt="" class="aboutUsImg">
+        <p class="aboutUsText">The content here will be dynamically generated, depending on the button selected above. For now it is Lorem Ipsum.<br><br>
+            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
+            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
+            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
+            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
+            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
+            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
+            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
+            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
+            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
+            </p>
+    </div>
 </div>
 <div class="pageDivider"></div>
 <?php include 'templateFooter.php'; ?>
