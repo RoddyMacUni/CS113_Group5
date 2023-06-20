@@ -84,7 +84,9 @@ const getCookie = (cookieKey) => {
       $("#cssLessonCheckbox").change(function() {
         if(this.checked) {
             incrementProgress("CSS")
-            $("#celebrationToast").html("<p class='success'>Congratulations! You have completed Lesson 1 on CSS!<br>Current Progress: <br>HTML: ${HTMLprogress}<br>CSS: ${CSSprogress}</p>")
+            let HTMLprogress = getProgress("HTML")
+            let CSSprogress = getProgress("CSS")
+            $("#celebrationToast").html(`<p class='success'>Congratulations! You have completed Lesson 1 on HTML!<br>Current Progress: <br>HTML: ${HTMLprogress}<br>CSS: ${CSSprogress}</p>`)
             $("#celebrationToast").focus()
         } else {
             $("#celebrationToast").html("")
