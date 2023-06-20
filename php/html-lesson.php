@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>HTML Lesson 1</title>
     <script src="../js/jquery-3.7.0.js"></script>
     <script src="../js/progressTracker.js"></script>
     <link rel="stylesheet" href="../css/stylesheet.css">
