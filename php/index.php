@@ -47,7 +47,7 @@
     <div class="pageDivider">&nbsp;</div>
     <div class="quicklinks">
         <span>Got a question?</span>
-        <a href="about-us.php">FAQ</button>
+        <button href="about-us.php">FAQ</button>
     </div>
 
 
