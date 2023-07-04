@@ -36,7 +36,7 @@ CREATE TABLE cs113_group5_progression (
 
 CREATE TABLE cs113_group5_users (
                                     username varchar(20) NOT NULL,
-                                    password_hash varchar(50) NOT NULL COMMENT 'The password ABSOLUTELY has to be hashed before being sent to the database',
+                                    password_hash varchar(60) NOT NULL COMMENT 'The password ABSOLUTELY has to be hashed before being sent to the database',
                                     XP int NOT NULL COMMENT 'The amount of XP the user has accrued'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
