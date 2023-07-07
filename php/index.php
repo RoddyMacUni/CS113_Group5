@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Home</title>
-
+    <script src="../js/jquery-3.7.0.js"></script>
+    <script src="../js/progressTracker.js"></script>
     <link rel="stylesheet" href="../css/stylesheet.css">
     <?php include 'templateHeader.php'; ?>
 </head>

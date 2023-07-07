@@ -1,3 +1,42 @@
+
+//START OF KEYBOARD NAVIGATION//
+let currentPage = location.href.split('/')[5].replace('.php', '')
+
+let nextPages = {
+  "index": "about-us",
+  "about-us": "learn",
+  "learn": "parent-zone",
+  "parent-zone": "login",
+  "login": "index"
+}
+
+$(document).on("keyup", function (e) {
+  if (e.key == "ArrowRight") {
+    for (const [k, v] of Object.entries(nextPages)) {
+      if (k == currentPage) {
+        var dest = location.href.replace(k, v);
+        currentPage = v;
+        location.href = dest;
+        break;
+      }
+    }
+  }
+
+  if (e.key == "ArrowLeft") {
+    for (const [k, v] of Object.entries(nextPages)) {
+      if (v == currentPage) {
+        var dest = location.href.replace(v, k);
+        currentPage = k;
+        location.href = dest;
+        break;
+      }
+    }
+  }
+});
+
+//END OF KEYBOARD NAVIGATION
+
+//START OF COOKIE HANDLING//
 const getCookie = (cookieKey) => {
   let name = cookieKey + "=";
   let decodedCookie = decodeURIComponent(document.cookie);
@@ -21,7 +60,9 @@ const setCookie = (cookieKey, cookieValue) => {
   document.cookie = cookieKey + "=" + cookieValue + ";" + expires + ";path=/";
 };
 
-//THIS ENTIRE XP SYSTEM WILL BE REWORKED FOR FUTURE MILESTONE
+//END OF COOKIE HANDLING
+
+//START OF XP SYSTEM
 const incrementProgress = (type) => {
   let currentProgress = getCookie("userProgress");
   let split = currentProgress.split(",");
@@ -58,6 +99,8 @@ const updateXP = (amount) => {
   setCookie("userXP", currentXP + amount);
 };
 
+//END OF XP SYSTEM
+
 $(window).on("load", function () {
   //HANDLE COOKIE INITIALIZATION
   if (getCookie("userProgress") === "")
@@ -80,30 +123,30 @@ $(window).on("load", function () {
     }
   });
 
-  $("#htmlLesson1Quiz").submit( function (e) {
+  $("#htmlLesson1Quiz").submit(function (e) {
     e.preventDefault();
     let q1 = false;
     let q2 = false;
-    $(".lessonQuizQuestionInput").each(function(i) {
-      switch(i) {
+    $(".lessonQuizQuestionInput").each(function (i) {
+      switch (i) {
         case 0:
           var text = $(this).val().toLowerCase().trim().split(" ").join("");
-          if(text==="hypertextmarkuplanguage") {
+          if (text === "hypertextmarkuplanguage") {
             q1 = true
           } else {
             q1 = false
           }
-        break;
+          break;
         case 1:
-          var text = $(this).val().toLowerCase().trim().replace(" ", "").replace("<","").replace(">","")
-          if(text==="img") {
+          var text = $(this).val().toLowerCase().trim().replace(" ", "").replace("<", "").replace(">", "")
+          if (text === "img") {
             q2 = true
           } else {
             q2 = false
           }
-        break;
+          break;
       }
-      if(q1 && q2) {
+      if (q1 && q2) {
         incrementProgress("HTML");
         let HTMLprogress = getProgress("HTML");
         let CSSprogress = getProgress("CSS");
@@ -119,29 +162,32 @@ $(window).on("load", function () {
     });
   });
 
-  $("#cssLesson1Quiz").submit( function (e) {
+
+
+
+  $("#cssLesson1Quiz").submit(function (e) {
     e.preventDefault();
     let correct = false;
-    $(".lessonQuizQuestionInput").each(function(i) {
-      switch(i) {
+    $(".lessonQuizQuestionInput").each(function (i) {
+      switch (i) {
         case 0:
           var text = $(this).val().toLowerCase().trim().split(" ").join("");
-          if(text==="cascadingstylesheet" || text==="cascadingstylesheets") {
+          if (text === "cascadingstylesheet" || text === "cascadingstylesheets") {
             correct = true
           } else {
             correct = false
           }
-        break;
+          break;
         case 1:
-          var text = $(this).val().toLowerCase().trim().replace(" ", "").replace("<","").replace(">","")
-          if(text==="color") {
+          var text = $(this).val().toLowerCase().trim().replace(" ", "").replace("<", "").replace(">", "")
+          if (text === "color") {
             correct = true
           } else {
             correct = false
           }
-        break;
+          break;
       }
-      if(correct) {
+      if (correct) {
         incrementProgress("CSS");
         let HTMLprogress = getProgress("HTML");
         let CSSprogress = getProgress("CSS");
@@ -157,5 +203,3 @@ $(window).on("load", function () {
     });
   });
 });
-
-
