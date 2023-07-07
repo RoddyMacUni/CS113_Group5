@@ -13,7 +13,7 @@
     <div class="learnItem">
         <span class="learnItemTitle">HTML</span>
         <br>
-        <img src="../images/html5.png" alt="" class="learnItemImg">
+        <img src="../images/html5.png" alt="HTML5 logo" class="learnItemImg">
         <span class="learnItemLinksTitle">HTML Quick Links:</span>
         <ul>
             <li class="learnItemLink"><a href=html-lesson.php>Lesson 1</a></span>
@@ -26,7 +26,7 @@
     <div class="learnItem">
         <span class="learnItemTitle">CSS</span>
         <br>
-        <img src="../images/css3.png" alt="" class="learnItemImg">
+        <img src="../images/css3.png" alt="CSS3 logo" class="learnItemImg">
         <span class="learnItemLinksTitle">CSS Quick Links:</span>
         <ul>
             <li class="learnItemLink"><a href=css-lesson.php>Lesson 1</a></span>

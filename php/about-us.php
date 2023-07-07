@@ -11,7 +11,7 @@
 <body>
 <div class="aboutUsParentContainer">
     <div class="aboutUsContainer">
-        <img src="../images/logo.png" alt="" class="aboutUsImg">
+        <img src="../images/logo.png" alt="Company logo" class="aboutUsImg">
         <p class="aboutUsText">Welcome to our website, a place where kids discover the exciting world of coding and unleash their creativity!<br>
             We believe that coding is not only a valuable skill but also a fantastic outlet for self-expression and problem-solving. Our goal is to provide a safe and engaging platform where children can learn the foundations of coding while having a ton of fun along the way.<br>
             <br>In today's fast-paced, tech-driven world, coding skills have become increasingly important. Our carefully designed curriculum introduces kids to coding concepts through interactive lessons, hands-on projects, and playful activities. By developing their logical thinking, critical reasoning, and computational skills, we empower young minds to thrive in the digital age.

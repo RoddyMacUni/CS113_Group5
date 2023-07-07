@@ -12,17 +12,17 @@
 <body>
 <div class="parentZoneContainer">
     <div class="parentZoneItem">
-        <img src="../images/monster1.png" alt="" class="parentZoneImg">
+        <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
         <p class="parentZoneText">Parent FAQ</p>
     </div>
 
     <div class="parentZoneItem">
-        <img src="../images/monster1.png" alt="" class="parentZoneImg">
+        <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
         <p class="parentZoneText">Check my kids progress</p>
     </div>
 
     <div class="parentZoneItem">
-        <img src="../images/monster1.png" alt="" class="parentZoneImg">
+        <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
         <p class="parentZoneText">Report an issue</p>
     </div>
 </div>
@@ -30,7 +30,7 @@
 <!--THIS WILL BE POPULATED DYNAMICALLY DEPENDING ON WHAT LINK IS SELECTED ABOVE, IN FUTURE MILESTONES-->
 <div class="aboutUsParentContainer">
     <div class="aboutUsContainer">
-        <img src="../images/logo.png" alt="" class="aboutUsImg">
+        <img src="../images/logo.png" alt="Company logo" class="aboutUsImg">
         <p class="aboutUsText">The content here will be dynamically generated, depending on the button selected above. For now it is Lorem Ipsum.<br><br>
             Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
             Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 

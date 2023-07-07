@@ -13,21 +13,21 @@
     <div class="parentZoneContainer">
         <a href="html-lesson.php">
             <div class="parentZoneItem">
-                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
                 <p class="parentZoneText">Build a website</p>
             </div>
         </a>
 
         <a href="html-lesson.php">
             <div class="parentZoneItem">
-                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
                 <p class="parentZoneText">What is HTML?</p>
             </div>
         </a>
 
         <a href="css-lesson.php">
             <div class="parentZoneItem">
-                <img src="../images/monster1.png" alt="" class="parentZoneImg">
+                <img src="../images/monster1.png" alt="Cartoon monster icon" class="parentZoneImg">
                 <p class="parentZoneText">What is CSS?</p>
             </div>
         </a>
