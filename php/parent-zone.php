@@ -31,17 +31,11 @@
 <div class="aboutUsParentContainer">
     <div class="aboutUsContainer">
         <img src="../images/logo.png" alt="Company logo" class="aboutUsImg">
-        <p class="aboutUsText">The content here will be dynamically generated, depending on the button selected above. For now it is Lorem Ipsum.<br><br>
-            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-            Sed quis rutrum risus, at egestas orci. Mauris congue est metus, in vestibulum sapien iaculis a. 
-            Donec bibendum mi et urna porttitor, vitae tempor libero condimentum. Fusce urna arcu, molestie in lorem iaculis, consectetur tincidunt dui. 
-            Nam consectetur lacus non ex gravida efficitur. Donec vehicula ullamcorper laoreet. Cras elit ipsum, accumsan vitae velit eget, varius accumsan nisl.
-            </p>
+        <p class="aboutUsText">
+            The Parent Zone is your dedicated space to support and monitor your child's coding journey.
+            Check your child's progress, report issues, and find answers in our Parent FAQ section.
+            We're here to ensure a safe and enriching experience for your child's learning. Join us and be an active
+            part of their coding adventure!
     </div>
 </div>
 <div class="pageDivider"></div>

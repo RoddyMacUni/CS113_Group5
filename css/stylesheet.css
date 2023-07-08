@@ -278,6 +278,13 @@ p {
 .aboutUsText {
     width: 50%;
     text-align: center;
+    line-height: 1.5;
+}
+
+.aboutUsTitle {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
 }
 
 .aboutUsImg {
