@@ -98,6 +98,21 @@ body {
     width: 100%;
 }
 
+.image-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.small-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+p {
+    margin: 0;
+}
+
 .homepageLoginContainer {
     font-weight: 500;
     display: flex;
@@ -378,4 +393,26 @@ body {
         transition: all 0.5s;
         transform: scale(1);
     }
+    .custom-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    .custom-table th,
+    .custom-table td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .custom-table th {
+        background-color: #f2f2f2;
+    }
+
+    .custom-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+
+
 }
