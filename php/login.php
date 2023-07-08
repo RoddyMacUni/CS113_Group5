@@ -58,8 +58,8 @@
 
 function validateUsernamePassword(): bool
 {
-    $sanitizedUsername = strip_tags($_POST["username"]);
-    $sanitizedPassword = strip_tags($_POST["password"]);
+    $sanitizedUsername = htmlspecialchars($_POST["username"], ENT_QUOTES, 'UTF-8');
+    $sanitizedPassword = htmlspecialchars($_POST["password"], ENT_QUOTES, 'UTF-8');
 
     return validateUserCredentials($sanitizedUsername, $sanitizedPassword);
 }
